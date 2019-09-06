@@ -1,1 +1,4 @@
 .idea/
+/venv/
+/demo.py
+/credentials.py
