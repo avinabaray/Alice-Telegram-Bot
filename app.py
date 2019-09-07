@@ -62,7 +62,9 @@ def main():
 
                 first_chat_text = first_chat_text.lower()   # converts the message text to lowercase
 
-                if first_chat_text == 'hi' or 'hey' or 'hello':
+                print(first_chat_text)
+
+                if first_chat_text == ('hi' or 'hey' or 'hello'):
                     alice_bot.send_message(first_chat_id, 'Hey ' + first_chat_name + '! How are you doing?')
                     new_offset = first_update_id + 1
 
